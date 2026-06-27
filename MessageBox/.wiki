@@ -1,0 +1,17 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+-->
+<table style="width:100%;border:1px solid black;padding-left:5px;{{#if: {{{background-color|}}}|background-color:{{{background-color|}}};|background-color:white;}}{{#if: {{{border-color|}}}|border-left:{{{border-color|}}};|border-left=10px solid black}}">
+<tr>
+<td {{#if:{{{imagewidth|}}}|width={{{imagewidth|}}}}}>
+{{#if: {{{image|}}}|[[File:{{{image|}}}|{{#if:{{{imagewidth|}}}|{{{imagewidth|}}}}}|thumb|center|{{#if:{{{imagelink|}}}|link={{{imagelink|}}}}}]]}} 
+</td>
+<td>{{#if:{{{text|}}}|{{{text|}}}}}</td>
+</tr></table><noinclude>{{Documentation}}</noinclude><!--
+                        ^^^^^^^^^^^^^^^^^
+    Documentation is avaidable at the MessageBox_doc.wiki file
+    in this repository
+    REMEMBER TO USE MessageBox/doc AS THE NAME OF THE TEMPLATE
+    WITH THE DOCUMENTATION!!!
+-->
