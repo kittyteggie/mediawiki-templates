@@ -1,0 +1,12 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+
+THIS TEMPLATE DEPENDS OF THE 'MessageBox' TEMPLATE THAT IS AVAIDABLE IN THE 'MessageBox.wiki' FILE
+-->
+{{MessageBox|text= '''This article is a stub.'''<br/>
+This article requires some more information, as it is too short. If you think you have any good information, [{{fullurl:{{FULLPAGENAME}}|action=edit}} please add to this page!]
+|image=Stub.png <!-- THIS IS AN EXAMPLE FILE, CHANGE IT WITH WHATEVER ICON YOU'LL USE -->
+|imagelink=Category:Stubs
+|imagewidth=45px
+|border-color=10px solid blue}}<includeonly>[[Category:Stubs]]</includeonly>
