@@ -1,0 +1,22 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+
+THIS TEMPLATE DEPENDS OF THE 'MessageBox' TEMPLATE THAT IS AVAIDABLE IN THE 'MessageBox.wiki' FILE
+-->
+{{MessageBox
+|text = '''This article is a candidate for deletion.'''<br>
+This page has been marked as a candidate for deletion by a member of 
+the community. {{#if: {{{1|}}}|&nbsp;for the following reason(s):'''{{{1}}}.|'''}}
+If you want to discuss the potential deletion of this page (whether it be to contest
+the deletion or give extra reasoning not covered by the reasons given above), please 
+visit the pages talk page or improve the page and remove the
+'''<code><nowiki>{{delete}}</nowiki></code>''' tag.<br><br>
+<small>(''Remember to check [[Special:Whatlinkshere/{{FULLPAGENAME}}|what links here]]
+and  [{{fullurl:{{FULLPAGENAME}}|action=history}} the page history] before 
+deleting.'')</small>
+|image = Nuvola apps important.png <!-- THIS IS AN EXAMPLE FILE, CHANGE IT WITH WHATEVER ICON YOU'LL USE -->
+|imagelink = Category:Candidates for deletion
+|imagewidth = 45px
+|border-color = 10px solid red}}
+<includeonly>[[Category:Candidates for deletion]]</includeonly>
