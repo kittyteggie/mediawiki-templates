@@ -1,0 +1,14 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+
+THIS TEMPLATE DEPENDS OF THE 'MessageBox' TEMPLATE THAT IS AVAIDABLE IN THE 'MessageBox.wiki' FILE
+-->
+{{MessageBox
+|text = '''This section is unfinished.'''</br>
+This section is unfinished and requires some more information. If you have any good information about it, [{{fullurl:{{FULLPAGENAME}}|action=edit}} please edit this page to expand this section!]
+|image = Important.png <!-- THIS IS AN EXAMPLE FILE, CHANGE IT WITH WHATEVER ICON YOU'LL USE -->
+|imagelink = 
+|imagewidth = 45px
+|border-color = 10px solid orange
+}}<includeonly>[[Category:Section stubs]]</includeonly>
