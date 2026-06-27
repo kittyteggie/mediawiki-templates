@@ -1,0 +1,45 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+
+REMEMBER TO CHANGE THE TITLE OF THE TEMPLATE TO 'MessageBox/doc' FOR IT TO WORK /!\
+-->
+'''NOTE:''' This template was created by kittyteggie [https://github.com/kittyteggie/mediawiki-templates on GitHub]. Any issue fill it [https://github.com/kittyteggie/mediawiki-templates/issues here].
+
+== Parameters ==
+{| class="wikitable" style="width: 100%"
+! Parameter name
+! Description
+! Required?
+! Default
+|-
+| <code>border-color</code>
+| The color of the borders in the template.
+| No
+| 10px solid black
+|-
+| <code>background-color</code>
+| The color of the box's background.
+| No
+| Stylesheet default
+|-
+| <code>image</code>
+| An image added as an icon on the left of the box.
+| No
+| N/A
+|-
+| <code>imagewidth</code>
+| The width of the image.
+| No
+| N/A (Width automatically adjusts)
+|-
+| <code>imagelink</code>
+| The link to which the image points to, if there is not the image will be unclickable
+| No
+| N/A
+|-
+| <code>text</code>
+| Non-bold text placed below the header, can be used to explain the subject of the message box
+| No
+| N/A
+|}
