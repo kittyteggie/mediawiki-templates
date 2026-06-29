@@ -1,0 +1,12 @@
+<!--
+Template created by KittyTeggie under the Creative Commons Zero v1.0 (public domain) license.
+https://github.com/kittyteggie/mediawiki-templates
+
+THIS TEMPLATE DEPENDS OF THE 'MessageBox' TEMPLATE THAT IS AVAIDABLE IN THE 'MessageBox.wiki' FILE
+-->
+{{MessageBox
+|text='''Developing information!'''<br/>
+<small>This article contains information that is frequently changing and relates to a currently developing situation. Recent things have happened to '''{{PAGENAME}}''', so it is subject to change. Certain information may be outdated, and you can help [{{fullurl:{{FULLPAGENAME}}|action=edit}} edit] to add the new or to update information, as well as files and links for references!</small>
+|image=Stub.png
+|border-color=10px solid orange
+}}<includeonly>[[Category:Developing articles]]</includeonly>
